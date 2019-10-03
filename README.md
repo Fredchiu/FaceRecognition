@@ -16,7 +16,12 @@ This progrom already tested on
 5. sklearn - there is a very convinent library with kNN, or you can just write your own kNN
 5. mvnc (Intel Movidius Neural Compute Stick Library, optional)
 
-##Lets see the code!!
+# Before you start 
+Please download model files from (https://drive.google.com/file/d/12e5UNjSPcrqVvaNa1ZQrxmRoCKqPzhl8/view?usp=sharing)
+
+Because there is a 25mb upload limitation, please unzip the models.zip and put models folder under FaceRecognition folder
+
+## Lets see the code!!
 All functions/interface are packaged in "realtime_face_multiface_tk.py"
 I know this coding style is not good, but it just a small side-project for myself
 
@@ -27,6 +32,7 @@ I know this coding style is not good, but it just a small side-project for mysel
 |face size      | 160 | match facenet pre-trained model requirement |
 
 ## Processing flow
+
 Let's see the interface
 ![interface_pic](https://github.com/Fredchiu/FaceRecognition/blob/master/ui_cap.png)
 1. `Add Face`--> Please start from here
