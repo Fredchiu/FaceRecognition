@@ -1,6 +1,7 @@
 ## FaceRecognition
 
 By using Movidius or Tensorflow running facenet model to verify face.
+Tkinter interface also integrated in this .py
 
 ## Environment:
 This progrom already tested on 
