@@ -8,6 +8,11 @@ This progrom already tested on
 * Ubuntu 16.04 / Windows 8.1
 * Python-3.5.2
 * OpenCV-3.4.0
+
+# Before you start 
+* Please download model files from (https://drive.google.com/file/d/12e5UNjSPcrqVvaNa1ZQrxmRoCKqPzhl8/view?usp=sharing)
+  Because there is a 25mb upload limitation, please unzip the models.zip and put models folder under FaceRecognition folder
+
 ## Python Library to install before running the code:
 1. numpy
 2. dlib
@@ -16,12 +21,7 @@ This progrom already tested on
 5. sklearn - there is a very convinent library with kNN, or you can just write your own kNN
 5. mvnc (Intel Movidius Neural Compute Stick Library, optional)
 
-# Before you start 
-Please download model files from (https://drive.google.com/file/d/12e5UNjSPcrqVvaNa1ZQrxmRoCKqPzhl8/view?usp=sharing)
-
-Because there is a 25mb upload limitation, please unzip the models.zip and put models folder under FaceRecognition folder
-
-## Lets see the code!!
+# Lets see the code!!
 All functions/interface are packaged in "realtime_face_multiface_tk.py"
 I know this coding style is not good, but it just a small side-project for myself
 
