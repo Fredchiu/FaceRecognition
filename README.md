@@ -27,7 +27,7 @@ I know this coding style is not good, but it just a small side-project for mysel
 
 ## Processing flow
 Let's see the interface
-![interface_pic](https://github.com/Fredchiu/FaceRecognition/ui_cap.png)
+![interface_pic](https://github.com/Fredchiu/FaceRecognition/blob/master/ui_cap.png)
 1. `Add Face`--> Please start from here
    It start from No KNN model by the red background, because you have no database
    Please enter the name you would like to registrition and click `Add Face`
@@ -40,7 +40,7 @@ Let's see the interface
    update)
 
 3. `Realtime Display_by_NCS` or `Realtime Display_by_TF` are the main application when there is a model.
-![realtime_running_pic](https://github.com/Fredchiu/FaceRecognition/realtime_display.png)
+![realtime_running_pic](https://github.com/Fredchiu/FaceRecognition/blob/master/realtime_display.png)
 
 4. I also write a `Image_Recognition` function to check who is in the photo.
 5. `Check sample Qty` is to let you know how many registed name in data base.
